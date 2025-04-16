@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>cool</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <h1>Pixel Client Background Changer</h1>
+  <input onchange="document.querySelector('button').disabled = false;" type="file" id="fileInput" accept="image/*"><br>
+  <button onclick="main()" disabled>Download Resource Pack</button>
+  <div id="status"></div>
+
+  <script src="js/jszip.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
