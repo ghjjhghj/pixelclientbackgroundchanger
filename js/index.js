@@ -20,8 +20,8 @@ async function main() {
     reader.onload = function (e) {
         img.onload = function () {
             const bg = document.createElement('canvas');
-            bg.width = img.width;
-            bg.height = img.height;
+            bg.width = 1920;
+            bg.height = 1080;
             const ctx = bg.getContext('2d');
             ctx.drawImage(img, 0, 0);
 
